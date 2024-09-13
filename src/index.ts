@@ -236,6 +236,11 @@ export const generateGraphs = async () => {
             ],
           },
           options: {
+            elements: {
+              point: {
+                pointStyle: false,
+              },
+            },
             legend: { display: false },
             scales: {
               xAxes: [
@@ -276,6 +281,11 @@ export const generateGraphs = async () => {
           ],
         },
         options: {
+          elements: {
+            point: {
+              pointStyle: false,
+            },
+          },
           legend: { display: false },
           scales: {
             xAxes: [
